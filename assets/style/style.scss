@@ -1,0 +1,237 @@
+/* 
+
+
+
+
+***************
+font Name:
+font-family: 'Lato', sans-serif;
+
+*************
+*/
+
+$top-bg-color:#031d2c;
+$middle-bg-color: #081621;
+$all-link-color:#fff;
+$active-color: #fc8a1a;
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+
+
+
+body{
+
+
+    font-family: 'Lato', sans-serif;
+}
+
+
+.header-area{
+.top-headign{
+
+    background-color: $top-bg-color;
+    padding: 14px 0;
+    
+    .phone{   
+        color: $all-link-color;
+        transition: .3s ease-in-out;
+
+        i{
+            font-size: 22px;
+            margin-right: 5px;
+        }
+        display: block;
+        text-decoration: none;
+
+        &:hover{
+
+            color: $active-color;
+        }
+
+    }
+
+    .register{
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            
+            
+        }
+
+        .fade-text{
+            color: $active-color;
+        }
+
+        .reg-log{            
+                color: $all-link-color;    
+                margin-left: 5px;
+                i{
+                    margin-right: 5px;
+                    transition: .3s;
+                    &:hover{
+                        color: $active-color;
+                    }
+                }
+                a{
+                    color: $all-link-color;
+                    transition: .3s;
+                }  
+
+                .register-btn , .login-btn{
+                    &:hover{
+                        color: $active-color;
+                    }
+                }
+                
+                
+        }
+
+    }
+
+    
+}
+
+.search-wrapar{
+    background-color: $middle-bg-color;
+padding: 15px 0;
+    .container{
+        .row{
+
+            .logo-area{
+
+                width: 20%;
+            }
+
+            .search-area{
+                width: 50%;
+                margin-bottom: 0;
+                padding: 0;
+
+                .search{
+                    background-color: $all-link-color;
+                    position: relative;
+                    margin-top: 10px;
+                    width: 100%;
+                    #category_select{
+                        background: #ffffff;
+                        border: medium none;
+                        border-radius: 0;
+                        height: 45px;
+                        vertical-align: top;
+                        border-right: 1px #072539 solid;
+                        padding: 0 0 0 15px;
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #232f3e;
+                        float: left;
+                        width: 150px;
+                        height: 49px;
+                        outline: none;
+                        
+
+                      
+
+                    }
+
+                    form{
+                        input{
+                            width: calc(100% - 203px);
+                            height: 49px;
+                            border: none;
+                            outline: none;
+                            padding: 0 10px;
+                        }
+
+                        .search-submit{
+                            float: right;
+                            width: 50px;
+                            text-align: center;
+                            background: #f58220;
+                            border: none;
+                            vertical-align: middle;
+                            height: 49px;
+                            padding: 0 19px 0 18px;
+                            margin-left: -1px;
+                            outline: none;
+                            color: $all-link-color;
+                            transition: .3s ease-in-out;
+                            &:hover{
+                                i{
+                                    transform: scale(1.2);
+                                }
+                            }
+                        }
+                    }
+                }
+        
+            }
+
+            .choice-area{
+
+                width: 30%;
+
+                ul{
+                    list-style: none;
+                    margin-bottom: 0;
+                    padding: 4px 0;
+                    margin-top: 17px;
+                    margin-left: 20px;
+                    width: 46%;
+                    li{
+                        display: inline-block;
+                        margin: 0 8px;
+
+                        a{
+                            display: block;
+                            color: $all-link-color;
+                            text-decoration: none;
+                            i{
+                                font-size: 30px;
+                                position: relative;
+                                transition: .3s;
+
+                                span{
+                                    position: absolute;                                   
+                                    top: -12px;
+                                    font-size: 16px;
+                                    color: $active-color;
+                                }
+
+                            }
+                        }
+
+                        &:hover{
+                            a{ 
+                                i {
+                                    color: $active-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+    
+
+
+
+}

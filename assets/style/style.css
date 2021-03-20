@@ -1,0 +1,189 @@
+/* 
+
+
+
+
+***************
+font Name:
+font-family: 'Lato', sans-serif;
+
+*************
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.header-area .top-headign {
+  background-color: #031d2c;
+  padding: 14px 0;
+}
+
+.header-area .top-headign .phone {
+  color: #fff;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  display: block;
+  text-decoration: none;
+}
+
+.header-area .top-headign .phone i {
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.header-area .top-headign .phone:hover {
+  color: #fc8a1a;
+}
+
+.header-area .top-headign .register a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header-area .top-headign .register .fade-text {
+  color: #fc8a1a;
+}
+
+.header-area .top-headign .register .reg-log {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.header-area .top-headign .register .reg-log i {
+  margin-right: 5px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header-area .top-headign .register .reg-log i:hover {
+  color: #fc8a1a;
+}
+
+.header-area .top-headign .register .reg-log a {
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header-area .top-headign .register .reg-log .register-btn:hover, .header-area .top-headign .register .reg-log .login-btn:hover {
+  color: #fc8a1a;
+}
+
+.header-area .search-wrapar {
+  background-color: #081621;
+  padding: 15px 0;
+}
+
+.header-area .search-wrapar .container .row .logo-area {
+  width: 20%;
+}
+
+.header-area .search-wrapar .container .row .search-area {
+  width: 50%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.header-area .search-wrapar .container .row .search-area .search {
+  background-color: #fff;
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.header-area .search-wrapar .container .row .search-area .search #category_select {
+  background: #ffffff;
+  border: medium none;
+  border-radius: 0;
+  height: 45px;
+  vertical-align: top;
+  border-right: 1px #072539 solid;
+  padding: 0 0 0 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #232f3e;
+  float: left;
+  width: 150px;
+  height: 49px;
+  outline: none;
+}
+
+.header-area .search-wrapar .container .row .search-area .search form input {
+  width: calc(100% - 203px);
+  height: 49px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+
+.header-area .search-wrapar .container .row .search-area .search form .search-submit {
+  float: right;
+  width: 50px;
+  text-align: center;
+  background: #f58220;
+  border: none;
+  vertical-align: middle;
+  height: 49px;
+  padding: 0 19px 0 18px;
+  margin-left: -1px;
+  outline: none;
+  color: #fff;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.header-area .search-wrapar .container .row .search-area .search form .search-submit:hover i {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header-area .search-wrapar .container .row .choice-area {
+  width: 30%;
+}
+
+.header-area .search-wrapar .container .row .choice-area ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 4px 0;
+  margin-top: 17px;
+  margin-left: 20px;
+  width: 46%;
+}
+
+.header-area .search-wrapar .container .row .choice-area ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.header-area .search-wrapar .container .row .choice-area ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-area .search-wrapar .container .row .choice-area ul li a i {
+  font-size: 30px;
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header-area .search-wrapar .container .row .choice-area ul li a i span {
+  position: absolute;
+  top: -12px;
+  font-size: 16px;
+  color: #fc8a1a;
+}
+
+.header-area .search-wrapar .container .row .choice-area ul li:hover a i {
+  color: #fc8a1a;
+}
+/*# sourceMappingURL=style.css.map */
